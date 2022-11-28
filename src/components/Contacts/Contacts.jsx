@@ -5,8 +5,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { deleteContact } from '../../redax/operation';
 
 import {
-  selectContacts,
-  selectFilter,
+  // selectContacts,
+  // selectFilter,
   selectVisibleContacts,
 } from '../../redax/selectors';
 

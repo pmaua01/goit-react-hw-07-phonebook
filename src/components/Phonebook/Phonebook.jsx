@@ -11,7 +11,7 @@ import { useSelector, useDispatch } from 'react-redux';
 // import { addContacts } from 'redax/contactSlice';
 import { selectContacts } from 'redax/selectors';
 
-import { addContact, fetchContacts } from 'redax/operation';
+import { addContact } from 'redax/operation';
 
 export const Phonebook = () => {
   const contacts = useSelector(selectContacts);
